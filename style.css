@@ -358,8 +358,8 @@ body {
 }
 .right .balloon_two{
     position: absolute;
-    top: 170px;
-    right: -85px;
+    top: 190px;
+    right: -95px;
     z-index: -1;
     transform: rotate(10deg);
     animation: balloon2 2s infinite linear;
@@ -453,8 +453,8 @@ body {
 }
 .smiley_icon{
     position: relative;
-    bottom: 180px;
-    left: 600px;
+    bottom: 170px;
+    left: 550px;
     transform: scale(0);
     animation: scaleCricle 3s 15s forwards ease-in-out;
 }
@@ -602,13 +602,13 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 1.3rem;
 }
-.content__letter .right #mewmew{
+.content__letter .right mewmew{
     position: relative;
     bottom: 0;
     right: 0;
     opacity: 0;
 }
-#mewmew.animationOp{
+mewmew.animationOp{
     animation: opacityHeart 1s 1s forwards;
 }
 
