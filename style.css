@@ -817,7 +817,7 @@ mewmew.animationOp{
     align-items: center;
     transform: scale(0.3);
     visibility: hidden;
-    transition: all 1.5s;
+    transition: all 0.5s;
     z-index: 100000000;
 }
 .boxMail.active{
@@ -834,7 +834,7 @@ mewmew.animationOp{
     transform: scale(0.9);
     -webkit-perspective: 2000px;
     perspective: 2000px;
-    transition: all 1.5s;
+    transition: all 0.5s;
 }
 .boxMail .boxMail-container:hover{
     transform: rotate(-5deg);
