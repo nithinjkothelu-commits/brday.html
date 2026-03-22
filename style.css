@@ -380,7 +380,7 @@ body {
 }
 
 .decorate_star{
-    position: absolute;
+    position: relative;
     transform: scale(0);
     background-color: var(--color-black);
     clip-path: polygon(0 50%, 35% 35%, 50% 0, 65% 35%, 100% 50%, 65% 65%, 50% 100%, 35% 65%);
@@ -426,7 +426,7 @@ body {
     }
 }
 .decorate_bottom{
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: -10px;
 }
