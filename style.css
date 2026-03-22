@@ -26,6 +26,11 @@ body {
     height: 100%;
     background-image:linear-gradient(var(--color-pink), var(--color-pink));
 }
+.container {
+    max-width:400px;
+    margin:auto;
+}
+}
 #wrapper{
     position: relative;
     background-color: transparent;
