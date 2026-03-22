@@ -447,7 +447,7 @@ body {
     animation: scaleCricle 3s var(--t) forwards ease-in-out;
 }
 .smiley__icon{
-    position: absolute;
+    position: relative;
     bottom: 180px;
     left: 600px;
     transform: scale(0);
@@ -466,7 +466,7 @@ body {
     display: none;
 }
 .box__letter .letter__border{
-    position: absolute;
+    position: relative;
     width: 55vw;
     height: 450px;
     background-color: var(--color-white);
@@ -479,7 +479,7 @@ body {
     display: none;
 }
 .letter__border .close{
-    position: absolute;
+    position: relative;
     right: -10px;
     top: -10px;
     width: 30px;
@@ -537,7 +537,7 @@ body {
     }
 }
 .content__letter .left .heart{
-    position: absolute;
+    position: relative;
     opacity: 0;
 }
 .content__letter .left .heart.animation{
@@ -584,7 +584,7 @@ body {
 }
 .content__letter .right .love__img{
     opacity: 0;
-    position: absolute;
+    position: relative;
     right: 20px;
     top: -100px;
 }
