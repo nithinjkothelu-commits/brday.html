@@ -26,11 +26,6 @@ body {
     height: 100%;
     background-image:linear-gradient(var(--color-pink), var(--color-pink));
 }
-.container {
-    max-width:400px;
-    margin:auto;
-}
-}
 #wrapper{
     position: relative;
     background-color: transparent;
@@ -112,9 +107,9 @@ body {
 }
 
 #btn__letter:hover i{
-    animation: rotateheart 1s infinite linear;
+    animation: rotateHeart 1s infinite linear;
 }
-@keyframes rotateheart{
+@keyframes rotateHeart{
     0%,50%, 100%{
         transform: rotate(0deg);
     }
@@ -270,7 +265,7 @@ body {
     object-fit: cover;
 
 }
-.circle{
+.cricle{
     position: absolute;
     top: 20px;
     right: 50px;
@@ -278,9 +273,9 @@ body {
     justify-content: center;
     align-items: center;
     transform: scale(0);
-    animation: scaleCircle 3s 15s forwards ease-in-out;
+    animation: scaleCricle 3s 15s forwards ease-in-out;
 }
-@keyframes scaleCircle {
+@keyframes scaleCricle {
     0%{
         transform: scale(0);
     }
@@ -295,7 +290,7 @@ body {
     }
 
 }
-.text__circle{
+.text__cricle{
     width: 100px;
     height: 100px;
     background-color: var(--color-text-pink);
@@ -304,14 +299,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: rotateCircle 5s linear infinite;
+    animation: rotateCricle 5s linear infinite;
 }
-@keyframes rotateCircle{
+@keyframes rotateCricle{
     to{
         transform: rotate(360deg);
     }
 }
-.text__circle span{
+.text__cricle span{
     top: 0%;
     left: 50%;
     position: absolute;
@@ -331,7 +326,7 @@ body {
     position: absolute;
     transform: scale(0.85);
 }
-@keyframes scaleheart{
+@keyframes scaleHeart{
     50%{
         transform: scale(1.2);
     }
@@ -380,7 +375,7 @@ body {
 }
 
 .decorate_star{
-    position: relative;
+    position: absolute;
     transform: scale(0);
     background-color: var(--color-black);
     clip-path: polygon(0 50%, 35% 35%, 50% 0, 65% 35%, 100% 50%, 65% 65%, 50% 100%, 35% 65%);
@@ -426,7 +421,7 @@ body {
     }
 }
 .decorate_bottom{
-    position: relative;
+    position: absolute;
     right: 0;
     bottom: -10px;
 }
@@ -451,8 +446,8 @@ body {
     transform: scale(0);
     animation: scaleCricle 3s var(--t) forwards ease-in-out;
 }
-.smiley_icon{
-    position: relative;
+.smiley__icon{
+    position: absolute;
     bottom: 180px;
     left: 600px;
     transform: scale(0);
@@ -471,7 +466,7 @@ body {
     display: none;
 }
 .box__letter .letter__border{
-    position: relative;
+    position: absolute;
     width: 55vw;
     height: 450px;
     background-color: var(--color-white);
@@ -484,7 +479,7 @@ body {
     display: none;
 }
 .letter__border .close{
-    position: relative;
+    position: absolute;
     right: -10px;
     top: -10px;
     width: 30px;
@@ -542,13 +537,13 @@ body {
     }
 }
 .content__letter .left .heart{
-    position: relative;
+    position: absolute;
     opacity: 0;
 }
 .content__letter .left .heart.animation{
-    animation: scaleheartletter 1s var(--t) infinite ease-in-out;
+    animation: scaleHeartLetter 1s var(--t) infinite ease-in-out;
 }
-@keyframes scaleheartletter{
+@keyframes scaleHeartLetter{
     0%{
         opacity: 1;
         transform: scale(0);
@@ -589,7 +584,7 @@ body {
 }
 .content__letter .right .love__img{
     opacity: 0;
-    position: relative;
+    position: absolute;
     right: 20px;
     top: -100px;
 }
@@ -603,7 +598,7 @@ body {
     font-size: 1.3rem;
 }
 .content__letter .right #mewmew{
-    position: relative;
+    position: absolute;
     bottom: 0;
     right: 0;
     opacity: 0;
@@ -632,6 +627,9 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
+
+
+
 @media screen and (max-width: 658px)   {
 
     .flag__birthday .flag__left {
@@ -685,7 +683,7 @@ body {
         transition: all .5s ease-in-out;
     }
 
-    .circle {
+    .cricle {
         position: absolute;
         top: 10px;
         right: -54px;
@@ -757,7 +755,7 @@ body {
         top: 167px;
     }
 
-    .love_img img {
+    .love__img img {
  
             width: 84px;
 
