@@ -627,37 +627,6 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .left, .right {
-        width: 100%;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .flag__left,
-    .flag__right {
-        width: 150px;
-    }
-
-    .box__account img {
-        width: 120px;
-    }
-
-    .btn button {
-        width: 80%;
-    }
-}
-
-
 @media screen and (max-width: 658px)   {
 
     .flag__birthday .flag__left {
