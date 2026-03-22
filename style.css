@@ -602,13 +602,13 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 1.3rem;
 }
-.content__letter .right mewmew{
+.content__letter .right #mewmew{
     position: relative;
     bottom: 0;
     right: 0;
     opacity: 0;
 }
-mewmew.animationOp{
+#mewmew.animationOp{
     animation: opacityHeart 1s 1s forwards;
 }
 
