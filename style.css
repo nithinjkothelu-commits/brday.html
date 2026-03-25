@@ -914,7 +914,7 @@ body {
     position: relative;
     background-color: #FF7882;
     transition: all 1s;
-    overflow: hidden;
+    overflow: visible;
     font-family: "Inter", serif;
     color: #fff;
 }
@@ -926,7 +926,7 @@ body {
     font-family: 'Dancing Script', cursive;
     padding: 20px 0px 10px 60px;
     opacity: 0;
-    visibility: hidden;
+    visibility: visible;
     font-size: 25px;
     text-shadow: 0 0 8px #FF7882;
 }
