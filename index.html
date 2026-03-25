@@ -225,7 +225,7 @@
             }, 50)
         }, 6000)
     })
-    $(".close").on("click", function () {
+    $(".fa-xmark").on("click", function () {
         clearInterval(intervalContent)
         document.querySelector(".title__letter").textContent = "";
         text__letter.textContent = "";
@@ -243,7 +243,7 @@
 
 
 
-    let mailBox = document.querySelector('.mail')
+    let mailBox = document.querySelector('#btn__letter')
     let boxmail = document.querySelector('.boxMail')
     var close = document.querySelector('.fa-xmark')
     mailBox.onclick = function () {
